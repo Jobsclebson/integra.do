@@ -1,4 +1,4 @@
-## Universities REST API
+## REST API
 
 Projeto desenvolvido com base no test de back-end da Integra.do.
 
@@ -30,7 +30,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 
 Essa aplicação foi desenvolvida utilizando o serviço MongoDB Atlas, serviço de banco de dados na nuvem oferecido pela MongoDB.
 
-A chave de acesso esta configurada no aqruivo api/default.json. Foi liberado acesso no servidor para qualquer IP.
+A chave de acesso esta configurada no aqruivo `api/default.json`. Foi liberado acesso no servidor para qualquer IP.
 
 ### Requisitos
 
@@ -38,15 +38,14 @@ A chave de acesso esta configurada no aqruivo api/default.json. Foi liberado ace
 
 2. Abra o terminal no diretório que deseja clonar a aplicação.
 
-3. Digite o comando git clone e cole a URL [https://github.com/Jobsclebson/integra.do].
-* GitHub
+3. Digite o comando git clone e cole a URL `https://github.com/Jobsclebson/integra.do`.
   ```sh
   git clone https://github.com/Jobsclebson/integra.do
   ```
 
 ### Instalação
 
-Agora é preciso fazer a instalação das depencias contidas no arquivo [package-lock.json].
+Agora é preciso fazer a instalação das depencias contidas no arquivo `package-lock.json`.
 
 1. Abra o terminal no diretório que foi clonado.
 
@@ -57,12 +56,12 @@ Agora é preciso fazer a instalação das depencias contidas no arquivo [package
 
 ## Utilização
 
-Basta executar o arquivo [server.js] para iniciar o servidor.
+Basta executar o arquivo `server.js` para iniciar o servidor.
    ```sh
    node server.js
    ```
 
-Se não houver variável de ambiente definindo uma porta, a porta [8000] sera utilizada.
+Se não houver variável de ambiente definindo uma porta, a porta `8000` sera utilizada.
 
 Acessando a aplicação no diretório raiz o servidor retornada conteúdo em JSON de como utilizar a aplicação.
    ```sh
