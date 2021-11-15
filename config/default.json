@@ -1,0 +1,28 @@
+{
+    "server": {
+        "port": 8000
+    },
+    "universitiesApi": {
+        "uri": "http://universities.hipolabs.com/search",
+        "country": [
+            "argentina",
+            "brazil",
+            "chile",
+            "colombia",
+            "paraguai",
+            "peru",
+            "suriname",
+            "uruguay"
+        ]
+    },
+    "mongoDB":{
+        "uri": "mongodb+srv://admin:admin@cluster0.m3dzi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "database": {
+            "name": "integrado",
+            "collection": "universities",
+            "pagination": 20
+        },
+        "user": "admin",
+        "password": "admin"
+    }
+}
